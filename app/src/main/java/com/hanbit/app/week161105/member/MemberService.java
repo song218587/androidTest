@@ -12,7 +12,7 @@ public interface MemberService {
     public int count();
     public MemberDTO  detail(String id);
     public ArrayList<MemberDTO> list();
-    public MemberDTO login(MemberDTO param);
+    public boolean login(MemberDTO param);
     public void update(MemberDTO param);
     public void delete(MemberDTO param);
 }

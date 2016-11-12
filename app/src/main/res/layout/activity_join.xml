@@ -6,12 +6,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="회원가입"
+        android:text="MEMBER JOIN"
         android:textSize="30dp"
         android:gravity="center"
-        android:background="#bbf7f02d"
+        android:background="#ede60c"
         />
-    <LinearLayout android:layout_height="326dp"
+    <LinearLayout android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:orientation="horizontal"
         xmlns:android="http://schemas.android.com/apk/res/android">
@@ -20,64 +20,112 @@
             android:layout_height="wrap_content"
             android:text="ID"
             android:textSize="30dp"
-            android:background="#bbf7f02d"
             />
         <EditText
             android:id="@+id/et_id"
-            android:layout_width="100dp"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:hint="INPUT ID"/>
+            android:hint=""/>
     </LinearLayout>
 
-    <EditText
-        android:id="@+id/et_second"
+    <LinearLayout android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Second Number"
-        />
-    <Button
-        android:id="@+id/bt_plus"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="+"
-        />
-    <Button
-        android:id="@+id/bt_minus"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="-"
-        />
-    <Button
-        android:id="@+id/bt_multi"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="×"
-        />
-    <Button
-        android:id="@+id/bt_divid"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="/"
-        />
-    <Button
-        android:id="@+id/bt_mod"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="%"
-        />
-    <Button
-        android:id="@+id/bt_equal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="="
-        />
+        android:orientation="horizontal"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="PWD"
+            android:textSize="30dp"
+            />
+        <EditText
+            android:id="@+id/et_pwd"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint=""/>
+    </LinearLayout>
 
-    <TextView
-        android:id="@+id/tv_result"
+    <LinearLayout android:layout_height="wrap_content"
         android:layout_width="match_parent"
+        android:orientation="horizontal"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="NAME"
+            android:textSize="30dp"
+            />
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint=""/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="30dp"
+            />
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint=""/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:padding="30dp"
-        android:text="Result:"
-        android:textColor="#ea1809"
+        android:text="phone"
+        android:textSize="30dp"
         />
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint=""/>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Addr"
+            android:textSize="30dp"
+            />
+        <EditText
+            android:id="@+id/et_addr"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint=""/>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:id="@+id/bt_submit"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        />
+    <Button
+        android:id="@+id/bt_cancel"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="CANCEL"
+        />
+    </LinearLayout>
 </LinearLayout>
